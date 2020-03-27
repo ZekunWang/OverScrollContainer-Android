@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OverScrollContainer">
+        <attr name="frictionRate" format="float"/>
+        <attr name="bounceAccelerator" format="float"/>
+        <attr name="slowDownDecelerator" format="float"/>
+    </declare-styleable>
+
+</resources>

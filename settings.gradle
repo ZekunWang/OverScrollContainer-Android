@@ -1,0 +1,2 @@
+include ':app', ':overscrollcontainer'
+rootProject.name='OverScrollContainer-Android'
