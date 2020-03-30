@@ -28,8 +28,13 @@ Configure OverScrollContainer image view in layout xml file (provide cusom param
         android:layout_marginEnd="1dp"
         app:frictionRate="0.25"
         app:bounceAccelerator="0.1"
-        app:slowDownDecelerator="0.3"
-        />
+        app:slowDownDecelerator="0.3" >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.zwapps.overscrollcontainer.OverScrollContainer>
 ```
 
 Or configure zoomable image view in code:
