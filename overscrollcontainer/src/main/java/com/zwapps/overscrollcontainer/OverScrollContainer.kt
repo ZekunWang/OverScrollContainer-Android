@@ -27,9 +27,9 @@ class OverScrollContainer @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : FrameLayout(context, attrs, defStyleAttr) {
 
-    private var frictionRate = 0.25F
-    private var bounceAccelerator = 0.1F
-    private var slowDownDecelerator = 0.3F
+    var frictionRate = 0.25F
+    var bounceAccelerator = 0.1F
+    var slowDownDecelerator = 0.3F
 
     val child: ViewGroup by lazy {
         val v = if (childCount > 0) getChildAt(0) as? ViewGroup else null
